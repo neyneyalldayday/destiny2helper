@@ -1,0 +1,22 @@
+.about-container{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.d2image{
+    width: 100%;    
+}
+
+
+.image-container {
+    max-width: 40rem;
+    min-width: 10rem;
+}
+
+.content{
+    max-width: 40rem;
+    min-width: 10rem; 
+}

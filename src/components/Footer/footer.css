@@ -1,0 +1,8 @@
+.footer{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,  #0052d4, #ff6ec4);  
+    flex-wrap: wrap;
+}

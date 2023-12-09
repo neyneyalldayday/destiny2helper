@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    margin-top: 0;    
+    background: linear-gradient(135deg, #ff6ec4, #0052d4); /* Pink to deep blue gradient */
+
+}
+
+.nav li {
+    list-style: none;
+}
+

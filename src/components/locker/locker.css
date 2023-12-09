@@ -1,0 +1,28 @@
+.locker-container{    
+    max-width: 80rem; 
+    padding: clamp(2rem, 5vw, 10rem);
+    height: clamp(25rem, 5vw, 50rem);
+}
+
+.item-chart {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the item width as needed */
+    gap: 10px; /* Adjust the gap between items */
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .item:hover {
+    background-color: #f0f0f0;
+  }
